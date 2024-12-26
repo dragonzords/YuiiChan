@@ -14,18 +14,18 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "awoo"
-    API_HASH = "awoo"
-    API_KEY = "BOT_TOKEN"
-    OWNER_ID = "792109647"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "@OnePunchSupport"
+    API_ID = "27776767"
+    API_HASH = "e7b0d8f7b037df9ff8b300816e90080b"
+    API_KEY = "7724947213:AAHdj06nQk8DaTABbQlgZ3FUzv6Bwv8qyes"
+    OWNER_ID = "6942457756"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "hnkksk"
+    SUPPORT_CHAT = "@intidaribumi"
 
     # RECOMMENDED
 
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
-    MESSAGE_DUMP = -1001253661229  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = -1001190806654
+    SQLALCHEMY_DATABASE_URI = "postgresql://neondb_owner:NL0hTHF2noxE@ep-sparkling-snowflake-a1t04hmu.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"  # needed for any database modules
+    MESSAGE_DUMP = -100249526926  # needed to make sure 'save from' messages persist
+    GBAN_LOGS = -1002495269262
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
